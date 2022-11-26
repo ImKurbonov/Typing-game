@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal hidden">
+        <h1>Time over</h1>
+        <button class="reset-btn">Restart</button>
+    </div>
+    <div class="container">
+        <h1 class="title">Abdumalik's typing game</h1>
+        <h3 class="score">
+            Your scores: 
+            <span class="score-counter">0</span>
+        </h3>
+        <label>Level</label>
+        <select class="select-level">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <h2 class="word">...</h2>
+        <form action="#" class="form">
+            <input class="form-input" type="text">
+        </form>
+        <h3 class="time">Game time: <span class="time-counter">0</span>s</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
